@@ -1,5 +1,11 @@
-body{
+.for-bg{
   background-color: #061d29;
+  width: 100%;
+  height: 100%;
+  padding-top: 1px;
+  padding-bottom: 200px;
+
+  
 }
 .navbar-brand img{
   width: 9%;
@@ -19,6 +25,7 @@ body{
 }
 .main-nav{
   margin-top: 80px;
+  top: 50px;
   background-color: transparent;
 }
 .navbar-brand-2 {
@@ -31,9 +38,7 @@ body{
   white-space: nowrap;
   padding: 10px 0;
 }
-.navbar-2{
 
-}
 .btn-temp{
   background-color: rgb(38, 38, 38);
   white-space: nowrap;
@@ -73,6 +78,10 @@ body{
   display: flex;
   gap: 900px;
 }
+.down-img{
+    display: flex;
+
+}
 .btn-react button{
   padding: 10px 22px;
   border-radius: 5px;
@@ -82,5 +91,56 @@ body{
 .Db-img{
   position: absolute;
   left: 21%;
+  top: 750px;
 
+}
+.overview{
+    padding: 300px 0 36px;
+}
+.overview-text p{
+    font-size: 14px;
+    color: tomato;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.overview-text h1{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.card{
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  /* box-shadow: 0 10px 25px rgba(0,0,0,0.2); */
+}
+.useCase-img{
+    padding: 20px;
+}
+.useCase-img img{
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding: 10px;
+}
+.useCase-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.liveDemo{
+    padding: 8px 30px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+.buyProduct{
+    padding: 8px 40px;
+    background-color: rgb(255, 95, 66);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
 }
