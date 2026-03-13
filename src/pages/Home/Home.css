@@ -99,7 +99,7 @@
 }
 .overview-text p{
     font-size: 14px;
-    color: tomato;
+    color: #ff5b26;
     font-weight: 600;
     text-decoration: underline;
 }
@@ -122,8 +122,8 @@
 }
 .useCase-img img{
     background-color: #f6f6f6;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 18px;
 }
 .useCase-btn{
     display: flex;
@@ -131,16 +131,22 @@
     gap: 10px;
 }
 .liveDemo{
-    padding: 8px 30px;
+    padding: 8px 20px;
     background-color: black;
     border-radius: 5px;
     border: none;
     color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .buyProduct{
-    padding: 8px 40px;
-    background-color: rgb(255, 95, 66);
+    padding: 8px 20px;
+    background-color: #ff5b26;
     border-radius: 5px;
     border: none;
     color: #fff;
+      display: flex;
+    align-items: center;
+    gap: 5px;
 }
