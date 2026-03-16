@@ -1,0 +1,37 @@
+.innerPagesTop{
+    padding: 60px 0px;
+}
+.innerPagesText p{
+    font-size: 14px;
+    color: #ff5b26;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.innerPagesText h2{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: #000;
+}
+.innerPagesBtn button{
+    background-color: #fff;
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: #dbdbdb 1px solid;
+    margin: 0 8px;
+    font-weight: 600;
+}
+.innerPagesBtn button:hover{
+    background-color: #ff5b26;
+    color: #fff;
+    transition: 0.4s;
+}
+.innerPagesBtn button.activeBtn{
+  background: #ff5b26;
+  color: white;
+}
+.slideBg{
+    background-color: #ff5b26;
+    height: 50px;
+    width: 100%;
+}
