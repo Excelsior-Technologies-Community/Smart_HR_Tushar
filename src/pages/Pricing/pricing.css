@@ -1,0 +1,31 @@
+.pricingMain{
+    background-color: #212529;
+    padding: 60px 0px;
+    position: relative;
+}
+.pricingText p{
+    font-size: 14px;
+    color: #ff5b26;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.pricingText h2{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.leftImg{
+    position: absolute;
+    top: 120px;
+}
+.rightImg{
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.bottomImg{
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+}

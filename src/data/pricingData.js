@@ -1,0 +1,28 @@
+export const regularFeatures = [
+  { text: "Full Source Code", available: true },
+  { text: "Premium Support", available: true },
+  { text: "Lifetime Free Updates", available: true },
+  { text: "Figma Design File", available: true },
+  { text: "No Charge for End Users", available: true },
+  { text: "6 Months of Support", available: true },
+  { text: "All Features Included", available: true },
+  { text: "For Commercial Projects", available: false },
+  { text: "Priority Support", available: false },
+  { text: "White-label Branding", available: false },
+  { text: "SaaS Product Development", available: false },
+  { text: "Installation Support", available: false },
+];
+export const extendedFeatures  = [
+  { text: "Full Source Code", available: true },
+  { text: "Premium Support", available: true },
+  { text: "Lifetime Free Updates", available: true },
+  { text: "Figma Design File", available: true },
+  { text: "No Charge for End Users", available: true },
+  { text: "6 Months of Support", available: true },
+  { text: "All Features Included", available: true },
+  { text: "For Commercial Projects", available: true },
+  { text: "Priority Support", available: true },
+  { text: "White-label Branding", available: true },
+  { text: "SaaS Product Development", available: true },
+  { text: "Installation Support", available: false },
+];
