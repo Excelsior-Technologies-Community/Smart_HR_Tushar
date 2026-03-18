@@ -1,4 +1,3 @@
-import { BiBorderBottom } from "react-icons/bi";
 import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 
 const PricingCards = ({ title, price, recommended, text, features }) => {

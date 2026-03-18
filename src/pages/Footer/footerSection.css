@@ -1,0 +1,63 @@
+.footerMain{
+    background-color: #212529;
+    padding-top: 50px;
+    position: relative;
+}
+.logoText{
+    display: flex;
+    white-space: nowrap;
+}
+.logoText h5{
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 0;
+    color: rgb(112, 112, 112);
+}
+.footerBtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+.footerTitle{
+    padding: 20px 200px;
+}
+.footerTitle h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+.footerTitle p{
+    color: #fff;
+    font-size: 14px;
+}
+.footerTitle span{
+    font-size: 14px;
+    color: #f37438;
+}
+.buyProducts{
+    padding: 7px 15px;
+    background-color: #3b7080;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.buyTemplate{
+    padding: 7px 15px;
+    background-color: #f37438;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+      display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.backImg{
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
